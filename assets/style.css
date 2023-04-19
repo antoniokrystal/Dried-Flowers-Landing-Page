@@ -44,3 +44,46 @@
     color: #fff;
     background-color: #000;
 }
+
+.cta-img{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/4;
+}
+
+.cta-title{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #575757;
+}
+
+.cta-sub-t{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #575757;
+}
+
+.btn-shop-img{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #C0AF9F;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.btn-shop-img:hover{
+    background-color: #000;
+    color: #fff;
+}
+
