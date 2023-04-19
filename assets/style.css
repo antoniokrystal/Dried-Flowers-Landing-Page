@@ -1,3 +1,7 @@
+.bg-cta-color{
+    background: linear-gradient(to bottom, #F4EBE4 50%, #fff 50%);
+}
+
 .navbar-expand-lg .navbar-collapse{
     justify-content: flex-end;
 }
@@ -85,5 +89,14 @@
 .btn-shop-img:hover{
     background-color: #000;
     color: #fff;
+}
+
+.cta-para{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575757;
 }
 
