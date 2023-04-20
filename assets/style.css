@@ -241,3 +241,70 @@
     margin-top: 75px;
 }
 
+.footer-section{
+    background-color: #F4EBE4;
+    padding-top: 100px;
+}
+
+.divider{
+    border-top: 2px solid #575757;
+    width: 100%;
+}
+
+.soc-icons{
+    font-size: 32px;
+    padding: 20px 0px;
+}
+
+.footer-header{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 48px;
+    color: #575757;
+}
+
+.footer-dash{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 48px;
+    color: #575757;
+}
+
+.footer-para{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575757;
+}
+
+.email-it{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #575757;
+}
+
+.form-control:focus{
+    border:1px solid #000;
+    box-shadow: none;
+}
+
+.btn-sign-up-img{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;  
+    color: #FFFFFF;
+    background-color: #575757;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
