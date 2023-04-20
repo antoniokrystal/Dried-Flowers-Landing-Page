@@ -134,6 +134,15 @@
     text-align: center;
 }
 
+.services-card:hover{
+    cursor: pointer;
+}
+
+.services-card .card-rm-l:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 .services-img-br{
     border-radius: 50%;
 }
@@ -199,6 +208,11 @@
     color: #FFFFFF;
 }
 
+.btn-lmb:hover{
+    color: #fff;
+    background-color: #000;
+}
+
 .ttos-section{
     background: #C0AF9F;
 }
@@ -234,6 +248,11 @@
     color: #FFFFFF;
 }
 
+.btn-ttos:hover{
+    color: #fff;
+    background-color: #000;
+}
+
 .ttos-div{
     background: #B59D92;
     border-radius: 500px 500px 0px 0px;
@@ -249,11 +268,18 @@
 .divider{
     border-top: 2px solid #575757;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .soc-icons{
     font-size: 32px;
     padding: 20px 0px;
+    color: #575757;
+}
+
+.soc-icons:hover{
+    color: #B59D92;
+    cursor: pointer;
 }
 
 .footer-header{
@@ -306,5 +332,10 @@
     background-color: #575757;
     border-radius: 5px;
     padding: 5px 20px;
+}
+
+.btn-sign-up-img:hover{
+    color: #fff;
+    background-color: #000;
 }
 
