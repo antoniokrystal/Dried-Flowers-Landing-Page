@@ -224,6 +224,7 @@
     font-size: 40px;
     line-height: 49px;
     color: #454545;
+    text-align: center;
 }
 
 .ttos-para{
@@ -322,6 +323,10 @@
     box-shadow: none;
 }
 
+.btn:focus{
+    box-shadow: none;
+}
+
 .btn-sign-up-img{
     font-family: 'Montserrat';
     font-style: normal;
@@ -337,5 +342,85 @@
 .btn-sign-up-img:hover{
     color: #fff;
     background-color: #000;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .bg-cta-color{
+        background: linear-gradient(to bottom, #F4EBE4 75%, #fff 25%);
+    }
+    
+    .hero-cta-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-cta-section>div{
+        width: 100%;
+    }
+
+    .btn-shop-img{
+        width: 50% !important;
+    }
+
+    .g-5, .gx-5{
+        --bs-gutter-x: 0rem;
+    }
+    
+    .aus-section{
+        flex-direction: column;
+        margin: 35px 0px;
+    }
+
+    .aus-tpb{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .aus-col-img{
+        display: none;
+    }
+
+    .ttos-div{
+        width: 80%;
+    }
+
+    .footer-section{
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-container :nth-child(1) { order: 3; }
+    .footer-container :nth-child(2) { order: 1; }
+    .footer-container :nth-child(3) { order: 2; }
+
+    .footer-hp{
+        width: 100%;
+    }
+
+    .footer-form{
+        width: 100%;
+    }
+
+    .footer-soc-icons{
+        width: 100%;
+        flex-direction: row !important;
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+
+    h1{
+        font-size: 35px !important;
+    }
+
+    p{
+        font-size: 16px !important;
+    }
 }
 
